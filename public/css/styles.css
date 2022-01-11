@@ -16,7 +16,7 @@ body {
 
 header{
     
-
+   
     height: 120px;
     width: 100%;
     background-color:#EAC926;
@@ -24,6 +24,7 @@ header{
     top: 0;
     z-index: 2;
     box-shadow: 1px 1px 3px grey;
+    
 }
 
 .logo-searchbar{
@@ -129,12 +130,14 @@ ul li{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 0 7px;
+    margin: 7px;
 }
 
 
 main{
     margin-top: 120px; 
+    
+    
  }
 
 
@@ -227,6 +230,7 @@ article img{
 }
 
 .precio {
+    font-weight: bold;
     font-size: 18px;
     
 }
@@ -250,11 +254,20 @@ article img{
 
 
 footer {
+   
     text-align: center;
     background-color: #ebebeb;
     
     
+   
     
+    
+    
+}
+
+.footer-title{
+    font-size: 1.1rem;
+    color: #1259c3;
 }
 footer p{
     font-size: 10px;
@@ -281,6 +294,7 @@ Formulario Registro y login
     justify-content: center;
     background-color: white;
     border-radius: 10px;
+    
 
 }
 
@@ -289,7 +303,12 @@ Formulario Registro y login
     flex-direction: column;
 
     margin: 15px;
-    width: 75%;      
+    width: 75%;    
+}
+
+.formulario-titulo{
+    padding-top: 20px;
+    text-align: center;
 }
 
 .form-radio{
