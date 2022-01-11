@@ -5,107 +5,25 @@
 }
 
 body {
-    background-color: #EAC926;
+    background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
     
 }
 
 
-main section article i{
-    
-    font-size: 1.2em;
-    padding: 5px;     
-    
-    border: 1px solid #39b54a;
-    border-radius: 50%;
-    color: #39b54a;
-    
-    
-}
-.icono-envio{    
-    position: absolute;
-    right:15px;
-    bottom: 15%;
-
-}
-header img {
-    width: 15rem;
-}
 
 
-
-.navbar ul{    
-    padding: 0;
-    list-style: none;       
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    display: none;
-}
-ul li{
-    font-size: 0.9rem;
-    margin-left:7px ;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 7px;
-}
-
-article img{    
-
-    width: 80vw;      
-    height: auto;
-    margin: 5px;
-    border-bottom: 1px solid grey;
-    
-    
-}
-
-
-
-
-.seccion-ultimasvistas, 
-.seccion-ofertas{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.contenedorarticulo {        
-    background-color: white ;    
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;      
-    padding-top: 15px;
-    box-shadow: 2px 5px 10px rgb(116, 116, 116);
-
-    position: relative;
-
-    transition:  transform 0.8s ;
-    
-}
-
-
-.contenedorarticulo:hover{
-    transform: scale(1.08);
-
-    
-
-}
 
 header{
     
 
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color:#EAC926;
     position: fixed;
     top: 0;
     z-index: 2;
+    box-shadow: 1px 1px 3px grey;
 }
 
 .logo-searchbar{
@@ -115,10 +33,6 @@ header{
     margin: 7px;
     width: 95vw;
     
-}
-
-main{
-   margin-top: 100px; 
 }
 
 .header-log{
@@ -156,11 +70,6 @@ main{
     border: none;
     background: transparent;
     
-
-
-
-    
-    
 }
 
 .search-ico{        
@@ -179,31 +88,13 @@ main{
     
     box-shadow: 0 0 3px 0 #1183d6;
 }
-.forma-pago{
-    text-align: center;
-   
-}
-.titulares {
-    font-size: 24px;
+
+
+
+header img {
+    width: 15rem;
 }
 
-.precios {
-    font-size: 18px;
-}
-
-.descuentos {
-    font-size: 16px;
-}
-
-.descripciones {
-    font-size: 16px;
-}
-.bienvenida {
-    text-align: center;
-}
-.forma-pago i{
-    text-align: center;
-}
 
 .burger-menu{
     color:  white;
@@ -220,9 +111,147 @@ main{
     padding: 5px;
 }
 
+
+.navbar ul{    
+    padding: 0;
+    list-style: none;       
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+
+ul li{
+    font-size: 0.9rem;
+    margin-left:7px ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7px;
+}
+
+
+main{
+    margin-top: 120px; 
+ }
+
+
+ .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.img-banner{
+    width: 100vw;   
+    
+}
+
+
+
+main section article i{    
+    font-size: 1.2em;
+    padding: 5px;     
+    
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    color: #39b54a;   
+    
+}
+
+
+article img{    
+
+    width: 80vw;      
+    height: auto;
+    margin: 0px 5px;
+    border-bottom: 1.75px solid rgba(172, 170, 170, 0.678);       
+}
+
+.seccion-ultimasvistas, 
+.seccion-ofertas{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedorarticulo {        
+    background-color: white ;    
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    padding-top: 15px;
+    box-shadow: 2px 5px 10px rgb(116, 116, 116);
+
+    position: relative;
+
+    transition:  transform 0.8s ;
+    
+}
+
+
+.contenedorarticulo:hover{
+    transform: scale(1.08);    
+}
+
+
+.icono-envio{    
+    position: absolute;
+    right:35px;
+    bottom: 42px;
+    transition: transform 0.8s ;
+}
+
+.icono-envio:hover{
+    transform: rotate(-90deg);    
+}
+
+.forma-pago{
+    text-align: center;
+   
+}
+.titulares {
+    font-size: 24px;
+}
+
+.pie-producto{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 5px 0;
+}
+
+.precio {
+    font-size: 18px;
+    
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.bienvenida {
+    text-align: center;
+}
+.forma-pago i{
+    text-align: center;
+}
+
+
+
 footer {
     text-align: center;
-    background-color:  #ebebeb;
+    background-color: #ebebeb;
     
     
     
@@ -240,6 +269,10 @@ footer section{
 }
 
 
+
+/****************************************
+Formulario Registro y login
+---------------------------------------*/
 .formulario {
     margin: 25px;
     display: flex;        
@@ -256,30 +289,26 @@ footer section{
     flex-direction: column;
 
     margin: 15px;
-    width: 75%;
-
-
-    
-
-    
+    width: 75%;      
 }
+
 .form-radio{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 }
 
 
 .field {
     height: 2rem;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 }
+
 input[type="checkbox"]{
     margin-bottom: 15px;
 }
+
 .title-preferencia,
 .title-perfil{
     margin-bottom: 15px;
@@ -297,22 +326,9 @@ input[type="checkbox"]{
 }
 
 
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-
-}
 
 
-.img-banner{
-    width: 100vw;
-    
-}
-
-
-@media (min-width: 480px){
+@media (min-width: 496px){
     
     .formulario form{
         width: 30%;
@@ -345,7 +361,13 @@ input[type="checkbox"]{
         width: 100vw;
             
         }
-    
+    .pie-producto{        
+        width: 80%;
+    }
+    .precio,
+    .descuento{
+        font-size: 14px;
+    }
         article img{
             width: 40vw;
             transition: all 0.5s;
@@ -354,12 +376,26 @@ input[type="checkbox"]{
         .icono-envio i {
             font-size: 1em;
         }
+    .icono-envio{
+        right: 25px;
+        bottom: 49px;
+    }
 }
+
 
 /* Desde este ancho hacia arriba*/
 @media (min-width: 768px){
 
     article img{
-        width: 18vw;    }
+        width: 18vw;    
+    }
+
+    .icono-envio {
+        right: 8px;        
+    }
+    .descripcion{
+        font-size: 12px;
+        font-weight: normal;
+    }
 
 }
