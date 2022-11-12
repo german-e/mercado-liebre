@@ -15,31 +15,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
-   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 
 <body>
     <header class="header">
+        <div class="header-container">
+
+        
         <div class="logo-searchbar">
             <div class="header-logo">
                 <a href="/"><img class="img-logo" src="/img/logo-mercado-liebre.svg"></a> 
             </div>
             <div class="header-searchbar">
                 <form class="form-buscar" action="/" method="get">
-                    <input class="barra-busqueda" id="buscar" type="search" placeholder="Buscar productos, marcas, etc." />
-                    <input class="search-ico" type="submit">
-                    <!-- <label class="label-buscar" for="buscar"><a class="search-ico" href="/"><i class="fas fa-search"></i></a></label>  -->
+                    <input class="barra-busqueda" id="buscar" type="search" placeholder="Buscar productos, marcas y mas..." />
+                    <!-- <input class="search-ico" type="submit">
+                     <label class="label-buscar" for="buscar"><a class="search-ico" href="/"><i class="fas fa-search"></i></a></label>  -->
+                     <a href="#"><span class="material-symbols-outlined search-icon">
+                        search
+                        </span></a>
                 </form>
             </div>
+            <div class="promo-suscripciones">
+                <img src="https://http2.mlstatic.com/D_NQ_887100-MLA50801817839_072022-OO.webp" alt="promo-disney">                
+            </div>
+            
             
         </div>
+<!--
 
-        <div class="forma-pago">
-            <h3>Comprá en cuotas y sin tarjeta de crédito <i class="fas fa-hand-holding-usd"></i></h3>
-        </div>
+    <div class="forma-pago">
+        <h3>Comprá en cuotas y sin tarjeta de crédito <i class="fas fa-hand-holding-usd"></i></h3>
+    </div>
+-->
 
         <nav class="navbar">
+            <div class="enviar-a">
+
+                <a href="#"><span class="material-symbols-outlined location-icon">
+                    location_on
+                </span></a>
+                <div class="enviar-text">
+                    <p class="enviar-text">Enviar a</p>
+                    <p class="enviar-ciudad">Capital Federal</p>
+                </div>
+            </div>
             <ul>
                 <li>Ofertas</li>
                 <li>Tiendas oficiales</li>
@@ -48,9 +70,12 @@
             </ul>
             
             <ul class="navbar-left">
-                <li><a href="/registro"> Crear tu cuenta <i class="far fa-id-card"></i></li></a>
-                <li><a href="/login"> Ingresá <i class="fas fa-sign-in-alt"></i></li></a>
-                <li>Mis compras <i class="fas fa-shopping-basket"></i></li>
+                <li><a href="/registro"> Crear tu cuenta</li></a>
+                <li><a href="/login"> Ingresá</li></a>
+                <li><a href="#">Mis compras</a></li>
+                <li><a href="$"><span class="material-symbols-outlined">
+                    shopping_cart
+                    </span></a></li>
             </ul>
 
         </nav>
@@ -59,13 +84,13 @@
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
-
+    </div>
     </header>
 
     <main>
 
         <div class="banner">
-            <img class="img-banner" src="/img/img-home-banner.jpg">
+            <img class="img-banner" src="https://http2.mlstatic.com/D_NQ_866363-MLA52321092010_112022-OO.webp">  <!-- img/img-home-banner.jpg"> -->
         </div>
 
         <hr>
@@ -187,6 +212,50 @@
 
         </section>
 
+        <section class="categorias-populares">
+            <div class="cat-pop cat-1">
+                <span class="material-symbols-outlined">
+                    directions_car
+                    </span>
+                    <p>Autos, motos y otros</p>
+            </div>
+            <div class="cat-pop cat-2">
+                <span class="material-symbols-outlined">
+                    computer
+                    </span>
+                 
+                    <p>Computacion</p>
+            </div>
+            <div class="cat-pop cat-3">
+                <span class="material-symbols-outlined">
+                    microwave_gen
+                    </span>
+                 
+                    <p>Electrodomésticos y Aire Ac.</p>
+            </div>
+            <div class="cat-pop cat-4">
+                <span class="material-symbols-outlined">
+                    sports_soccer
+                    </span>
+                 
+                    <p>Electrodomésticos y Aire Ac.</p>
+            </div>
+            <div class="cat-pop cat-5">
+                <span class="material-symbols-outlined">
+                    home_work
+                    </span>
+                 
+                    <p>Electrodomésticos y Aire Ac.</p>
+            </div>
+            <div class="cat-pop cat-5">
+                <span class="material-symbols-outlined">
+                    phone_iphone
+                    </span>
+                 
+                    <p>Electrodomésticos y Aire Ac.</p>
+            </div>
+            
+        </section>
 
     </main>
     <hr>
